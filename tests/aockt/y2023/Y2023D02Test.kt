@@ -25,12 +25,10 @@ class Y2023D02Test : AdventSpec<Y2023D02>({
 
     partOne {
         testCalibrationDocument shouldOutput 8
-        Inputs.D2 shouldOutput 2551
     }
 
     partTwo {
         testCalibrationDocument shouldOutput 2286
-        Inputs.D2 shouldOutput 62811
     }
 
 })

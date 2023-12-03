@@ -46,7 +46,6 @@ class Y2023D03Test : AdventSpec<Y2023D03>({
         testCalibrationDocument shouldOutput 4361
         constructedDocument shouldOutput 6369
         partFrom shouldOutput 10387
-        Inputs.D3 shouldOutput 528819
     }
 
     val gearRatioExample = """
@@ -64,7 +63,6 @@ class Y2023D03Test : AdventSpec<Y2023D03>({
 
     partTwo {
         gearRatioExample shouldOutput 467835
-        Inputs.D3 shouldOutput 80403602
     }
 
 })

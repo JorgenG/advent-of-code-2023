@@ -1,6 +1,5 @@
 package aockt.y2023
 
-import aockt.y9999.Y9999D01
 import io.github.jadarma.aockt.core.Solution
 
 /** A solution to a fictitious puzzle used for testing. */

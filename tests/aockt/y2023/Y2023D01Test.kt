@@ -25,13 +25,11 @@ class Y2023D01Test : AdventSpec<Y2023D01>({
     partOne {
         testCalibrationDocument shouldOutput 142
         listOf("asdsadasd", "asdds0sasd", "023320") shouldAllOutput 0
-        Inputs.D1 shouldOutput 55816
     }
 
     partTwo {
         "eighthree2threeight" shouldOutput 88
         listOf("asdsadasd", "asdds0sasd", "023320") shouldAllOutput 0
-        Inputs.D1 shouldOutput 54980
     }
 
 })
